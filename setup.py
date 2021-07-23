@@ -4,15 +4,14 @@ with open("README.md", "r") as readme_file:
     readme = readme_file.read()
 
 requirements = ["ipython>=6", "nbformat>=4", "nbconvert>=5", "requests>=2"]
-from setuptools import setup
+
 
 setup(
-    name='stocks',
+    name='get_data',
     url='https://github.com/Abimbola-ai/get-any-stock-history-data',
     author='Abimbola Ojikutu',
-    author_email='abimbola.ojikutu@ubh.de',
+    author_email='abimbola.ojikutu@iubh.de',
     packages=['scraper'],
-    install_requires=['pytest'],
     version='0.1',
     license='MIT',
     description='Get any stock input data from yahoo finance website',
