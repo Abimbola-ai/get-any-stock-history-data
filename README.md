@@ -4,12 +4,12 @@
 This is a tool that can be used to get the historical price of any ticker for yahoo finance website. The following data will be returned:
 
 * `timestamp`: Datetime stamp
-* `adjclose`: adjusted closing price of the stock daiy
+* `adjclose`: adjusted closing price of the stock on any given day
 * `high`: highest price of the stock daily
 * `volume`: volume of the stock daily
-* `open`: opening price of the stock daily
+* `open`: opening price of the stock on any given day
 * `low`: lowest price of the stock daily
-* `close`: closing price of the stock daiy
+* `close`: price at which the stock stopped trading during normal trading hours
 
 ## Installation
 
