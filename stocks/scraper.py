@@ -3,7 +3,7 @@ import pandas as pd
 import datetime
 
 
-def get_data(ticker, years) -> pd.DataFrame:
+def get_data(ticker:str, years:int) -> pd.DataFrame:
     headers= {'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.190 Safari/537.36'}
     dt= datetime.datetime.now()
     past_date = datetime.datetime(year=dt.year-years, month=dt.month, day=dt.day)
