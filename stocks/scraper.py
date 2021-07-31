@@ -28,6 +28,5 @@ def get_data(ticker:str, years:int) -> pd.DataFrame:
     rows.update(indicators['quote'][0])
     df = pd.DataFrame(rows)
     df['timestamp'] = pd.to_datetime(df['timestamp'], unit='s')
-    df.to_csv(f"{ticker}.csv")
     return df
 
