@@ -20,7 +20,7 @@ to run `pip install git+https://github.com/Abimbola-ai/get-any-stock-history-dat
 
 ### How to use the package?
 
-To use the package, call the `get_data` function to get daily data for the `ticker` and `year` specified into the function. This will return a `{ticker}.csv` file.
+To use the package, call the `get_data` function to get daily data for the `ticker` and `year` specified into the function. This will return a dataframe that can be saved into `.csv` file.
 
 ```
 get_data(ticker,years)
